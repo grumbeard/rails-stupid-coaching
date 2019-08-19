@@ -1,0 +1,20 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.dialogue {
+  h3 {
+    font-size: 32px;
+    font-weight: 200;
+  }
+  border: solid 0.5px grey;
+  border-radius: 15px;
+  margin: 20px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+body {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial;
+}

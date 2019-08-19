@@ -1,0 +1,20 @@
+  <div class="dialogue">
+    <h3>"<%= @question %>"</h3>
+    <p>-- You</p>
+  </div>
+  <div class="dialogue">
+    <h3>
+      "
+      <% if @question.downcase == 'i am going to work' %>
+        Great!
+      <% elsif @question[-1] == '?' %>
+        Silly question, get dressed and go to work!
+      <% else %>
+        I don't care, get dressed and go to work!
+      <% end %>
+      "
+    </h3>
+    <p>-- Your Coach</p>
+  </div>
+<p><%= link_to 'Ask another question', '/ask' %></p>
+
